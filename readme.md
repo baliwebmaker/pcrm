@@ -66,6 +66,7 @@ Run database migrations:
 php artisan migrate
 ```
 
+#### Controllers
 ```sh
 Edit app\Http\Controllers\UsersController.php
 ```
@@ -75,17 +76,27 @@ Create app\Http\Controllers\RolesController.php
 ```sh
 Create app\Http\Controllers\PermissionsController.php
 ```
+
+
+#### Models
 ```sh
 Edit app\Models\User.php
 ```
+
+#### Middlewares
 ```sh
 Edit app\Http\Middleware\HandleInertiaRequests.php
 ```
+
+
+#### Routes
 ```sh
 routes\web.php
 ```
 
 ## RESOURCES
+
+VUE / JS
 
 ```sh
 Edit resources\js\Pages\Users
