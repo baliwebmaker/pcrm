@@ -34,8 +34,9 @@ Create an SQLite database. You can also use another database (MySQL, Postgres), 
 
 
 ## Installation Spatie
-
-config/permission.php config file 
+```sh
+config/permission.php config file If you already have a file by that name, you must rename or remove it.
+```
 
 install the package via composer:
 ```sh
@@ -59,8 +60,9 @@ php artisan optimize:clear
 ```sh
 Edit database\seeders\DatabaseSeeder.php
 ```
-```sh
+
 Run database migrations:
+```sh
 php artisan migrate
 ```
 
